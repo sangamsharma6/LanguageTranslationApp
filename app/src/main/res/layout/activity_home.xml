@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:id="@+id/home_container"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+   android:background="@drawable/differentlanguage"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context="com.example.sangam0621.translate.HomeActivity">
+
+
+    <Button
+        android:id="@+id/start_new_translation"
+        android:layout_width="@dimen/start_buttons_width"
+        android:layout_height="@dimen/start_buttons_height"
+        android:gravity="center"
+        android:layout_marginTop="210dp"
+
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:text="@string/start_new_translation"
+        android:textColor="#000000 "
+        android:textSize="17sp"
+        android:textStyle="bold"
+        android:background="#FF0000 "/>
+    <Button
+        android:id="@+id/start_new_conversation"
+        android:layout_width="@dimen/start_buttons_width"
+        android:layout_height="@dimen/start_buttons_height"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#FF0000 "
+        android:gravity="center"
+        android:text="Conversation translate"
+        android:textColor="#000000 "
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/about"
+        android:layout_marginTop="10dp"
+        android:layout_width="@dimen/start_buttons_width"
+        android:layout_height="@dimen/start_buttons_height"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"
+
+        android:background="#FF0000 "
+        android:gravity="center"
+        android:text="About Us"
+        android:textColor="#000000 "
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
